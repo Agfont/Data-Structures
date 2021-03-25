@@ -1,0 +1,6 @@
+g++ code.cpp -o code.exe
+ 
+int ii = 0;
+int &rr = ii;
+rr++; // ii ara val 1
+int *pp = &rr; // pp ara apunta a ii
